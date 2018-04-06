@@ -35,7 +35,7 @@ namespace AA_Paper
             //stopwatch.Restart();
             do
             {
-                bgwGo.ReportProgress(90, new ReportData(2, stopwatch.ElapsedMilliseconds, population.ToString()));
+                //bgwGo.ReportProgress(90, new ReportData(2, stopwatch.ElapsedMilliseconds, population.ToString()));
             } while (population.doMagicStuff());
 
             stopwatch.Stop();
